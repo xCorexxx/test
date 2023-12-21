@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>396</width>
+    <height>276</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:1, x2:0, y2:0, stop:0 rgba(81, 0, 135, 255), stop:0.427447 rgba(41, 61, 132, 235), stop:1 rgba(155, 79, 165, 255));
+font-family: Century Gothic;</string>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <item>
+    <widget class="QFrame" name="frame">
+     <property name="styleSheet">
+      <string notr="true">background-color: rgba(255,255,255,20);
+border: 1px solid rgba(255,255,255,40%);
+border-radius: 7px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QLabel" name="label">
+          <property name="styleSheet">
+           <string notr="true">color: white;
+font-weight: bold;
+font-size: 20pt;
+background-color: none;
+border:  none;
+</string>
+          </property>
+          <property name="text">
+           <string>Добавить участок</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="data">
+          <property name="styleSheet">
+           <string notr="true">font-size: 16pt;
+color: white;
+padding-left: 10px;</string>
+          </property>
+          <property name="buttonSymbols">
+           <enum>QAbstractSpinBox::NoButtons</enum>
+          </property>
+          <property name="dateTime">
+           <datetime>
+            <hour>6</hour>
+            <minute>0</minute>
+            <second>0</second>
+            <year>2022</year>
+            <month>12</month>
+            <day>31</day>
+           </datetime>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="cb_prod">
+          <property name="toolTipDuration">
+           <number>0</number>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QComboBox {
+font-size: 16 pt;
+color: white;
+}
+
+QComboBoxCox:item {
+color: black;
+}
+</string>
+          </property>
+          <property name="currentText">
+           <string/>
+          </property>
+          <property name="currentIndex">
+           <number>-1</number>
+          </property>
+          <property name="placeholderText">
+           <string>Исполнитель</string>
+          </property>
+          <item>
+           <property name="text">
+            <string>Мульчер</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Эксп. персонал</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>ДАВС</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Под. организация</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="le_plot">
+          <property name="styleSheet">
+           <string notr="true">font-size: 16 pt;
+color: white;
+padding-left: 10 px;</string>
+          </property>
+          <property name="placeholderText">
+           <string>Участок</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_4">
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_2">
+            <item>
+             <widget class="QLineEdit" name="le_plot_2">
+              <property name="styleSheet">
+               <string notr="true">font-size: 16 pt;
+color: white;
+padding-left: 10 px;</string>
+              </property>
+              <property name="placeholderText">
+               <string>Участок</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_2">
+              <property name="styleSheet">
+               <string notr="true">color: white;
+font-weight: bold;
+font-size: 14pt;
+background-color: none;
+border:  none;
+</string>
+              </property>
+              <property name="text">
+               <string>км</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="le_plot_3">
+              <property name="styleSheet">
+               <string notr="true">font-size: 16 pt;
+color: white;
+padding-left: 10 px;</string>
+              </property>
+              <property name="placeholderText">
+               <string>Участок</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_3">
+              <property name="styleSheet">
+               <string notr="true">color: white;
+font-weight: bold;
+font-size: 14pt;
+background-color: none;
+border:  none;
+</string>
+              </property>
+              <property name="text">
+               <string>ПК</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QHBoxLayout" name="horizontalLayout_3">
+            <item>
+             <widget class="QLineEdit" name="le_plot_4">
+              <property name="styleSheet">
+               <string notr="true">font-size: 16 pt;
+color: white;
+padding-left: 10 px;</string>
+              </property>
+              <property name="placeholderText">
+               <string>Участок</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_4">
+              <property name="styleSheet">
+               <string notr="true">color: white;
+font-weight: bold;
+font-size: 14pt;
+background-color: none;
+border:  none;
+</string>
+              </property>
+              <property name="text">
+               <string>км</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="le_plot_5">
+              <property name="styleSheet">
+               <string notr="true">font-size: 16 pt;
+color: white;
+padding-left: 10 px;</string>
+              </property>
+              <property name="placeholderText">
+               <string>Участок</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="label_5">
+              <property name="styleSheet">
+               <string notr="true">color: white;
+font-weight: bold;
+font-size: 14pt;
+background-color: none;
+border:  none;
+</string>
+              </property>
+              <property name="text">
+               <string>ПК</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout_5">
+          <item>
+           <widget class="QLineEdit" name="le_tree_2">
+            <property name="styleSheet">
+             <string notr="true">font-size: 16 pt;
+color: white;
+padding-left: 10 px;</string>
+            </property>
+            <property name="placeholderText">
+             <string>Вырублено, км</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="le_tree">
+            <property name="styleSheet">
+             <string notr="true">font-size: 16 pt;
+color: white;
+padding-left: 10 px;</string>
+            </property>
+            <property name="placeholderText">
+             <string>Количество деревьев</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btn_save">
+          <property name="styleSheet">
+           <string notr="true">QPushButton {
+color: white;
+background-color: rgba(255,255,255,30);
+border: 1px solid  rgba(255,255,255,40);
+border-radius: 7px;
+width: 230px;
+height: 50px;
+}
+QPushButton:hover {
+background-color: rgba(255,255,255,40);
+}
+QPushButton:pressed {
+background-color: rgba(255,255,255,70);
+}</string>
+          </property>
+          <property name="text">
+           <string>Сохранить</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../pythonProject/res-new-window-rc.qrc"/>
+ </resources>
+ <connections/>
+</ui>
